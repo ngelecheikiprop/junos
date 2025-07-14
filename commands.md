@@ -6,7 +6,7 @@ show interafces
 show route 
 
 
-# making a user and giving them ssh access using password
+## making a user and giving them ssh access using password
 
 set system login user kiprop class super-user
 set system login user kiptop authentication plain-text-password 
@@ -15,8 +15,11 @@ commmit
 exit
 
 
-# make a user and let them login using ssh key 
+## make a user and let them login using ssh key 
 
 set system login user kiprop class super-user
 set system login user kiprop authentication ssh-rsa 'the key to login @kiprop'
 
+## checking config
+
+run show configuration 
