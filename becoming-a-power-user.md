@@ -26,3 +26,4 @@ show interfaces
 
 shut down one logical unit 
 
+we are at diabling a logical unit
