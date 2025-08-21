@@ -26,4 +26,12 @@ show interfaces
 
 shut down one logical unit 
 
-we are at diabling a logical unit
+
+##when disabling a physcical interface  interface
+
+set interface xe-0/1/1 diable
+
+##when diabling a logical unit
+
+set interfaces xe-0/1/1 unit 0 disable (xe-0/1/1.0)
+
