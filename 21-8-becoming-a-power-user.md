@@ -35,3 +35,24 @@ set interface xe-0/1/1 diable
 
 set interfaces xe-0/1/1 unit 0 disable (xe-0/1/1.0)
 
+show interfaces terse xe-0/1/1
+
+apart from interface you can diable protools 
+
+============================================================
+
+deactiveate interfaces xe-0/1/1 - this is like commenting out 
+shoe | compare 
+commit
+
+-==========================
+use diable to avaoid people connecting, using interfac
+
+show interfaces terse 
+link column - the phycial interfaace 
+admin - command to put down
+
+
+
+
+
